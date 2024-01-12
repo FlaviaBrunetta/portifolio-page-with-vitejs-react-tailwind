@@ -1,3 +1,4 @@
+import { Hero } from "./hero";
 import { Nav } from "./nav";
 
 export function Main() {
@@ -5,6 +6,7 @@ export function Main() {
     <>
       <div className="bg-indigo-600">
         <Nav />
+        <Hero />
       </div>
     </>
   );
