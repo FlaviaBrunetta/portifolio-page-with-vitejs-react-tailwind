@@ -8,7 +8,16 @@ export default {
       md: "768px",
       lg: "1024px",
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        orange: "#F18F01",
+        sinopia: "#C73E1D",
+        magenta: "#A23B72",
+        darkPurple: "#3B1F2B",
+        blue: "#2E86AB",
+      },
+    },
   },
   plugins: [],
 };

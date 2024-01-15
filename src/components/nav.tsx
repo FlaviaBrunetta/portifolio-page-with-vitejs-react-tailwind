@@ -17,7 +17,7 @@ export function Nav() {
         <div>
           <a
             href="#"
-            className="text-white font-mono text-3xl tracking-wider flex items-center "
+            className="text-darkPurple font-mono text-3xl tracking-wider flex items-center "
           >
             Flávia | front-end developer
           </a>
@@ -26,19 +26,19 @@ export function Nav() {
           <div className="ssm:hidden lg:block space-x-2">
             <a
               href="#"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className="text-darkPurple hover:bg-blue rounded-full px-5 py-2 text-xl"
             >
               Skills
             </a>
             <a
               href="#"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className="text-darkPurple hover:bg-blue rounded-full px-5 py-2 text-xl"
             >
               Projetos
             </a>
             <a
               href="#"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className="text-darkPurple hover:bg-blue rounded-full px-5 py-2 text-xl"
             >
               Depoimentos
             </a>
@@ -48,9 +48,9 @@ export function Nav() {
             onClick={openMenu}
           >
             {toggle ? (
-              <AiOutlineClose size={30} className="text-white" />
+              <AiOutlineClose size={30} className="text-darkPurple" />
             ) : (
-              <HiMenuAlt1 size={30} className="text-white" />
+              <HiMenuAlt1 size={30} className="text-darkPurple" />
             )}
           </div>
         </div>
@@ -59,11 +59,11 @@ export function Nav() {
         <div>
           <div className="flex justify-between ml-10 lg:hidden">
             <ul>
-              <li className="text-white text-xl mb-2 cursor-pointer">Skills</li>
-              <li className="text-white text-xl mb-2 cursor-pointer">
+              <li className="text-darkPurple text-xl mb-2 cursor-pointer">Skills</li>
+              <li className="text-darkPurple text-xl mb-2 cursor-pointer">
                 Projetos
               </li>
-              <li className="text-white text-xl mb-2 cursor-pointer">
+              <li className="text-darkPurple text-xl mb-2 cursor-pointer">
                 Depoimentos
               </li>
             </ul>

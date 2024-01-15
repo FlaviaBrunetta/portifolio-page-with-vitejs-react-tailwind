@@ -4,7 +4,7 @@ import { Nav } from "./nav";
 export function Main() {
   return (
     <>
-      <div className="bg-indigo-600">
+      <div className="bg-slate-100 min-h-screen">
         <Nav />
         <Hero />
       </div>
