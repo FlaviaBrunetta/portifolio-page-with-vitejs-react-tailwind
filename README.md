@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+## 💻 Projeto
+
+Projeto desenvolvido com base no tutorial [React, Vite, Tailwind CSS for Beginners & Advanced Portfolio Website Tutorial](https://www.youtube.com/watch?v=vOrQsP5lx9Y).
+Aplicação WEB de uma landing page para portfólio.
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
